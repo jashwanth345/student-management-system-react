@@ -119,31 +119,6 @@ http://localhost:5000/students
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-
-_Add your screenshot here_
-
----
-
-### 📋 View Students
-
-_Add your screenshot here_
-
----
-
-### ➕ Add Student
-
-_Add your screenshot here_
-
----
-
-### ✏️ Update Student
-
-_Add your screenshot here_
-
----
 
 ## 🌟 Learning Outcomes
 
@@ -173,7 +148,7 @@ Through this project, I learned:
 https://github.com/jashwanth345
 
 🔗 LinkedIn:
-(Add your LinkedIn profile link)
+www.linkedin.com/in/jashwanth-valluru-965906295
 
 ---
 
