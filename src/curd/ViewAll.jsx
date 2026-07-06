@@ -13,7 +13,7 @@ const ViewAll = () => {
 
   //resolve promise -->async and await
   const getApi=async ()=>{
-     const {data} = await axios.get("http://localhost:5000/students")
+     const {data} = await axios.get("https://student-management-backend-yzrj.onrender.com/students")
       setStudent(data)
   }
 
@@ -33,7 +33,7 @@ const ViewAll = () => {
     const confirmed=window.confirm("Confirm to felete the data")
     console.log(confirmed);
   if(confirmed){
-    axios.delete("http://localhost:5000/students/"+id).then(()=>{
+    axios.delete("https://student-management-backend-yzrj.onrender.com/students/" + id).then(()=>{
       getApi() //? display all remaining valueback o UI
       toast.success('Successfully Deleted!')
     }).catch((e)=>{

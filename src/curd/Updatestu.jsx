@@ -111,9 +111,7 @@ const Updatestu = () => {
   useEffect(() => {
     const getStudent = async () => {
       try {
-        const { data } = await axios.get(
-          `http://localhost:5000/students/${id}`
-        );
+        const { data } = await axios.get(`https://student-management-backend-yzrj.onrender.com/students/${id}`)
         setFormData(data);
       } catch (error) {
         console.log(error);
@@ -139,10 +137,7 @@ const Updatestu = () => {
     event.preventDefault();
 
     try {
-      await axios.put(
-        `http://localhost:5000/students/${id}`,
-        formData
-      );
+      await axios.put(`https://student-management-backend-yzrj.onrender.com/students/${id}`, formData)
 
       toast.success("Successfully Updated!");
       navigate("/viewall");

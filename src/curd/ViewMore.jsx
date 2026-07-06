@@ -16,7 +16,7 @@ const ViewMore = () => {
 
     //!resolve promise-->async and await
     const getApi=async ()=>{
-         const {data} = await axios.get("http://localhost:5000/students/"+id)
+         const {data} = await axios.get("https://student-management-backend-yzrj.onrender.com/students/" + id)
          toast.success('View More Detail!')
         setStudent(data)
     }

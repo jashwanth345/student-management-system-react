@@ -25,7 +25,7 @@ const CreateStu = () => {
     //!passing the data to server
     try{
       const payload = formData
-      axios.post("http://localhost:5000/students",payload)
+      axios.post("https://student-management-backend-yzrj.onrender.com/students", payload)
       navigate("/viewall")
       toast.success('Successfully Created!')
     }catch(e){
