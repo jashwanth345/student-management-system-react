@@ -18,7 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 ## 🚀 Live Demo
 
-https://student-management-system-react-fivnjogd1.vercel.app
+[https://student-management-system-react-fivnjogd1.vercel.app](https://student-management-system-react-fvinjogd1.vercel.app/)
 
 ## 💻 GitHub Repository
 
