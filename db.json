@@ -1,0 +1,50 @@
+{
+  "students": [
+    {
+      "id": "STU1A9B2",
+      "name": "Jashwanth",
+      "email": "jashu@gmail.com"
+    },
+    {
+      "id": "STU3C7D4",
+      "name": "Pavan",
+      "email": "pavan@gmail.com"
+    },
+    {
+      "id": "STU5E2F8",
+      "name": "Sobhitha",
+      "email": "sobhitha@gmail.com"
+    },
+    {
+      "id": "STU7G4H1",
+      "name": "Geetika",
+      "email": "geetika@gmail.com"
+    },
+    {
+      "id": "STU9J6K3",
+      "name": "jeevan",
+      "email": "jeevan@gmail.com"
+    },
+    {
+      "id": "STU4N1P7",
+      "name": "Hema",
+      "email": "hema@gmail.com"
+    },
+    {
+      "name": "jashu",
+      "email": "jashu@gmailcom",
+      "id": "tlvVn33_YNA"
+    },
+    {
+      "name": "Yamini",
+      "email": "yamini@gmail.com",
+      "id": "pq6w1EyRwzg"
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit@gmal.com",
+      "id": "VMlaCkQY1Rw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

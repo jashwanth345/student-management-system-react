@@ -1,0 +1,23 @@
+#navBlock {
+  height: 70px;
+  background-color: #2c3e50;
+}
+
+.listBlock {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.listBlock a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.listBlock a:hover {
+  color: #f1c40f;
+}
